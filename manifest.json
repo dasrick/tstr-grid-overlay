@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Tourstream Grid Overlay",
+  "short_name": "TSTR Grid",
+  "description": "playground for chrome extension that provides a predefined grid overlay",
+  "version": "0.0.0",
+  "icons": {
+    "16": "icons/logo16.png",
+    "48": "icons/logo48.png",
+    "128": "icons/logo128.png"
+  },
+  "browser_action": {
+    "default_popup": "src/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "src/executedScripts/background.js"
+    ],
+    "persistent": false
+  },
+  "web_accessible_resources": [
+    "src/css/grid.css",
+    "src/css/report.css"
+  ],
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "file://*/*",
+    "storage",
+    "activeTab"
+  ]
+}

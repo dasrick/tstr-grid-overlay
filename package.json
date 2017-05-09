@@ -1,7 +1,7 @@
 {
   "name": "tstr-grid-overlay",
   "version": "0.0.0",
-  "description": "kjg",
+  "description": "playground for chrome extension that provides a predefined grid overlay",
   "author": "Tourstream.eu",
   "license": "MIT",
   "main": "background.js",
