@@ -14,21 +14,21 @@
   },
   "homepage": "https://github.com/dasrick/tstr-grid-overlay#readme",
   "dependencies": {
-    "chai": "^3.3.0",
-    "mocha": "^2.3.3",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
     "phantomjs-prebuilt": "^2.1.14",
-    "sinon": "^1.17.1",
-    "sinon-chrome": "^0.2.1"
+    "sinon": "^2.3.4",
+    "sinon-chrome": "^2.2.1"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
+    "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^1.0.1",
-    "grunt-contrib-htmlmin": "^1.1.0",
-    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-uglify": "^3.0.1",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-processhtml": "^0.3.13"
+    "grunt-processhtml": "^0.4.1"
   },
   "scripts": {
     "test": "echo 'no tests'; exit 0;"
